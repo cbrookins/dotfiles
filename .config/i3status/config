@@ -44,7 +44,7 @@ run_watch VPN {
 }
 
 time {
-        format = " %a %b %e %H:%M ⋮ "
+        format = " %a %b %e %H:%M "
 }
 
 load {
@@ -52,7 +52,7 @@ load {
 }
 
 disk "/home" {
-        format = " /home %free "
+        format = "/home %free "
 }
 
 cpu_usage {
